@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangun segitiga</title>
+
+</head>
+<body>
+
+    <a href="index.php">Home</a>
+    <a href="bmi.php">BMI</a>
+    <a href="bangun_segitiga.php"> Hitung Segitiga </a>
+    <a href="lingkaran.php"> Hitung Lingkaran </a>
+    <a href="persegi.php"> Hitung persegi </a>
+    <a href="persegi_panjang.php"> Hitung persegi panjang</a>
+
+    <form action="hasil_persegi_panjang.php" method="post">
+
+    <div>
+        <label for="panjang">Masukkan panjang (cm)</label>
+        <input type="number" name="panjang">
+    </div>
+
+    <div>
+        <label for="tinggi">Masukkan tinggi (cm)</label>
+        <input type="number" name="tinggi">
+    </div>
+
+    <input type="submit" value="kirim">
+
+</form>
+
+
+
+</body>
+</html>
